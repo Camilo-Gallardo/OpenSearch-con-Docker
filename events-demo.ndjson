@@ -1,0 +1,20 @@
+{ "index" : { "_index" : "events-demo", "_id": "1" } }
+{ "@timestamp":"2025-08-31T10:23:00-05:00","city":"Bogota","country":"CO","event_type":"purchase","amount":149.9,"user_id":"u101","message":"Order #A-1001 paid" }
+{ "index" : { "_index" : "events-demo", "_id": "2" } }
+{ "@timestamp":"2025-09-01T14:05:00-05:00","city":"Medellin","country":"CO","event_type":"purchase","amount":89.5,"user_id":"u102","message":"Order #A-1002 paid" }
+{ "index" : { "_index" : "events-demo", "_id": "3" } }
+{ "@timestamp":"2025-09-02T09:30:00-05:00","city":"Bogota","country":"CO","event_type":"refund","amount":-49.9,"user_id":"u101","message":"Refund #R-5001 processed" }
+{ "index" : { "_index" : "events-demo", "_id": "4" } }
+{ "@timestamp":"2025-09-03T17:45:00-05:00","city":"Cali","country":"CO","event_type":"purchase","amount":199.0,"user_id":"u103","message":"Order #A-1003 paid" }
+{ "index" : { "_index" : "events-demo", "_id": "5" } }
+{ "@timestamp":"2025-09-03T18:20:00-05:00","city":"Bogota","country":"CO","event_type":"cart_abandoned","amount":0.0,"user_id":"u104","message":"Cart abandoned after shipping step" }
+{ "index" : { "_index" : "events-demo", "_id": "6" } }
+{ "@timestamp":"2025-09-04T11:10:00-05:00","city":"Medellin","country":"CO","event_type":"purchase","amount":59.0,"user_id":"u105","message":"Order #A-1004 paid" }
+{ "index" : { "_index" : "events-demo", "_id": "7" } }
+{ "@timestamp":"2025-09-05T13:55:00-05:00","city":"Barranquilla","country":"CO","event_type":"purchase","amount":120.0,"user_id":"u106","message":"Order #A-1005 paid" }
+{ "index" : { "_index" : "events-demo", "_id": "8" } }
+{ "@timestamp":"2025-09-06T20:12:00-05:00","city":"Cali","country":"CO","event_type":"refund","amount":-59.0,"user_id":"u105","message":"Refund #R-5002 processed" }
+{ "index" : { "_index" : "events-demo", "_id": "9" } }
+{ "@timestamp":"2025-09-07T08:03:00-05:00","city":"Bogota","country":"CO","event_type":"purchase","amount":299.0,"user_id":"u107","message":"Order #A-1006 paid" }
+{ "index" : { "_index" : "events-demo", "_id": "10" } }
+{ "@timestamp":"2025-09-08T16:40:00-05:00","city":"Medellin","country":"CO","event_type":"support","amount":0.0,"user_id":"u108","message":"Support ticket opened" }

@@ -1,0 +1,14 @@
+{
+  "settings": { "number_of_shards": 1 },
+  "mappings": {
+    "properties": {
+      "@timestamp": { "type": "date" },
+      "city":       { "type": "keyword" },
+      "country":    { "type": "keyword" },
+      "event_type": { "type": "keyword" },
+      "amount":     { "type": "double"  },
+      "user_id":    { "type": "keyword" },
+      "message":    { "type": "text"    }
+    }
+  }
+}
